@@ -1,0 +1,78 @@
+{
+  "program": "Endurance build: 30 to 60 min continuous row over ~9 weeks",
+  "start": "2026-10-11",
+  "deload_weeks": [
+    4,
+    7
+  ],
+  "week": {
+    "Mon": {
+      "sessions": [
+        "Easy row 25-30m",
+        "Sauna 15-20m"
+      ],
+      "note": "No pool (closed)",
+      "fuel": "moderate",
+      "electrolytes": "high"
+    },
+    "Tue": {
+      "sessions": [
+        "Easy swim 30m (technique)"
+      ],
+      "fuel": "light",
+      "electrolytes": "normal"
+    },
+    "Wed": {
+      "sessions": [
+        "Swim 30m",
+        "Interval row 25m: 6x 1' hard / 1' easy",
+        "Sauna"
+      ],
+      "fuel": "heavy",
+      "electrolytes": "high"
+    },
+    "Thu": {
+      "sessions": [
+        "Rest"
+      ],
+      "note": "No pool (closed)",
+      "fuel": "light",
+      "electrolytes": "normal"
+    },
+    "Fri": {
+      "sessions": [
+        "Swim 30m",
+        "Long steady row 30 to 60m (18-22 spm)",
+        "Sauna"
+      ],
+      "fuel": "heavy",
+      "electrolytes": "high",
+      "note": "Past ~45m: sip half a Royal-D during the row"
+    },
+    "Sat": {
+      "sessions": [
+        "Easy swim 30m"
+      ],
+      "fuel": "light",
+      "electrolytes": "normal"
+    },
+    "Sun": {
+      "sessions": [
+        "Rest or easy swim"
+      ],
+      "fuel": "light",
+      "electrolytes": "normal"
+    }
+  },
+  "long_row_minutes_by_week": [
+    30,
+    35,
+    40,
+    35,
+    45,
+    50,
+    40,
+    55,
+    60
+  ]
+}

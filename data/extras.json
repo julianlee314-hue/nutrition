@@ -1,0 +1,62 @@
+{
+  "targets": {
+    "iron_mg": 8,
+    "omega3_g": 1.6,
+    "vit_e_mg": 15,
+    "vit_c_mg": 90,
+    "vit_a_ug": 900,
+    "calcium_mg": 1000,
+    "potassium_mg": 3400,
+    "sodium_mg": 2300,
+    "magnesium_mg": 420,
+    "selenium_ug": 55
+  },
+  "ancestral": [
+    {
+      "week": "2026-W41",
+      "food": "Beef liver",
+      "why": "Nature's multivitamin: vitamin A, B12, copper and iron in their most absorbable forms. A weekly ritual for generations.",
+      "evidence": "well-studied",
+      "evidence_note": "Nutrient density is well-studied; whole-food 'vitality' claims are tradition."
+    },
+    {
+      "week": "next",
+      "food": "Bone broth",
+      "why": "Slow-simmered warmth for joints and gut.",
+      "evidence": "tradition",
+      "evidence_note": "Little direct research; the collagen it carries is promising."
+    }
+  ],
+  "swaps": [
+    {
+      "swap": "Add 1 tbsp chia or ground flax to the yogurt",
+      "gain": "+4-5g fiber, plant omega-3",
+      "thb_week": 35,
+      "evidence": "well-studied"
+    },
+    {
+      "swap": "Half Royal-D on rest days (Thu/Sun)",
+      "gain": "-22g added sugar on those days",
+      "thb_week": -10,
+      "evidence": "well-studied"
+    },
+    {
+      "swap": "Tallow balm instead of petroleum-based cream",
+      "gain": "Petroleum-free, skin-similar lipids",
+      "thb_week": null,
+      "evidence": "tradition"
+    },
+    {
+      "swap": "Coconut oil on damp skin after sauna",
+      "gain": "Cheap, petroleum-free seal",
+      "thb_week": 15,
+      "evidence": "promising"
+    },
+    {
+      "swap": "Sardines/mackerel 2x a week",
+      "gain": "Omega-3 EPA/DHA, calcium, iron",
+      "thb_week": 120,
+      "evidence": "well-studied"
+    }
+  ]
+}

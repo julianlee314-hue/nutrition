@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": "royal-d-grape",
+      "name": "Royal-D electrolyte, grape",
+      "brand": "Royal-D",
+      "serving": "1 sachet (25g)",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "taobin-espresso",
+      "name": "Double espresso + evap milk",
+      "brand": "Taobin",
+      "serving": "1 cup",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "greek-yogurt",
+      "name": "Greek yogurt, full fat",
+      "brand": "?",
+      "serving": "150g",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "whey",
+      "name": "Whey protein, unflavored",
+      "brand": "?",
+      "serving": "25g",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "collagen",
+      "name": "Collagen peptides",
+      "brand": "?",
+      "serving": "15g",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "berry-powder",
+      "name": "Mixed berry powder",
+      "brand": "?",
+      "serving": "15g",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "sunflower-seeds",
+      "name": "Sunflower seeds",
+      "brand": "?",
+      "serving": "15g",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "brand": "fresh",
+      "serving": "1 medium",
+      "label_status": "n/a",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "beetroot-powder",
+      "name": "Beetroot powder",
+      "brand": "?",
+      "serving": "? g (target 6-8 mmol nitrate)",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "eucerin-oil",
+      "name": "pH5 shower oil (likely)",
+      "brand": "Eucerin",
+      "serving": "1 wash",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "eucerin-cream",
+      "name": "Moisturizer",
+      "brand": "Eucerin",
+      "serving": "body",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    },
+    {
+      "id": "baby-shampoo",
+      "name": "Baby shampoo",
+      "brand": "?",
+      "serving": "hair",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "ingredients": null,
+      "photo": null
+    }
+  ]
+}

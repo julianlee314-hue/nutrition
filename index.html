@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="color-scheme" content="light dark">
+  <title>Nutrition · Life</title>
+  <link rel="stylesheet" href="./nutrition.css">
+  <script src="./data.js"></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="../index.html">LIFE</a>
+    <div class="topr"><select id="day" aria-label="Day"></select>
+    <button id="theme" class="pill" type="button">System</button></div>
+  </header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">Nutrition · what nourishes you, inside and out</p>
+      <h1 id="title">Today</h1>
+      <p id="whisper" class="muted"></p>
+    </section>
+    <section class="hero">
+      <div class="stat"><span>Energy</span><b id="kcal">–</b><i>kcal</i></div>
+      <div class="stat"><span>Protein</span><b id="prot">–</b><i>g</i></div>
+      <div class="stat"><span>Fat</span><b id="fat">–</b><i>g</i></div>
+      <div class="stat"><span>Carbs</span><b id="carb">–</b><i>g</i></div>
+      <div class="stat cost"><span>Into &amp; onto my body</span><b id="cost">–</b><i id="costnote">THB</i></div>
+    </section>
+    <nav class="tabs" id="tabs"></nav>
+    <section id="view" class="view"></section>
+  </main>
+  <footer class="foot"><p>Estimates marked <span class="est">~</span> until labels arrive. Logged by chatting with your Nutritionist. Times are kept as morning / midday / evening for privacy.</p></footer>
+</body>
+</html>

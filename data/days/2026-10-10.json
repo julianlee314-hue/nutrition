@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-10",
+  "weekday": "Sat",
+  "training": "Sat",
+  "note": "Morning only so far; afternoon/evening to log at the afternoon check-in.",
+  "mood": [
+    {
+      "period": "morning",
+      "mood": null,
+      "energy": null,
+      "note": "not yet tapped"
+    }
+  ],
+  "items": [
+    {
+      "name": "Royal-D electrolyte, grape (1 sachet)",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "1 sachet + water",
+      "pantry_id": "royal-d-grape",
+      "kcal": 90,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 22,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 200,
+        "potassium_mg": 80
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Glucose + salts before the swim: well-studied for fuelling & hydration.",
+      "feeling": null
+    },
+    {
+      "name": "Taobin double espresso + evap milk",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "double shot + 33g evap",
+      "pantry_id": "taobin-espresso",
+      "kcal": 50,
+      "protein": 2,
+      "fat": 2.5,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 3.5
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 80,
+        "potassium_mg": 180
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Caffeine pre-exercise: well-studied.",
+      "feeling": null
+    },
+    {
+      "name": "Greek yogurt, full fat",
+      "period": "morning",
+      "kind": "food",
+      "qty": "150g",
+      "pantry_id": "greek-yogurt",
+      "kcal": 145,
+      "protein": 14,
+      "fat": 7.5,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 5.5
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 165,
+        "potassium_mg": 210,
+        "selenium_ug": 14
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Fermented dairy, living cultures: promising.",
+      "feeling": null
+    },
+    {
+      "name": "Whey protein, unflavored",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "25g",
+      "pantry_id": "whey",
+      "kcal": 100,
+      "protein": 20,
+      "fat": 1.5,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 1.5
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 110
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Complete protein for recovery: well-studied.",
+      "feeling": null
+    },
+    {
+      "name": "Collagen peptides",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "15g",
+      "pantry_id": "collagen",
+      "kcal": 55,
+      "protein": 13,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {},
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Not a complete protein; skin/joint benefits: promising.",
+      "feeling": null
+    },
+    {
+      "name": "Mixed berry powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "15g",
+      "pantry_id": "berry-powder",
+      "kcal": 50,
+      "protein": 1,
+      "fat": 0.5,
+      "carbs": {
+        "sugars": {
+          "fruit": 7,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 3,
+        "starch": 0
+      },
+      "micros": {
+        "vit_c_mg": 15
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Label pending; polyphenols: promising.",
+      "feeling": null
+    },
+    {
+      "name": "Sunflower seeds",
+      "period": "morning",
+      "kind": "food",
+      "qty": "15g",
+      "pantry_id": "sunflower-seeds",
+      "kcal": 90,
+      "protein": 3,
+      "fat": 7.5,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1.3,
+        "starch": 2
+      },
+      "micros": {
+        "vit_e_mg": 5.3,
+        "selenium_ug": 8,
+        "magnesium_mg": 49,
+        "iron_mg": 0.8
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Vitamin E & selenium source: well-studied nutrients.",
+      "feeling": null
+    },
+    {
+      "name": "Mango, medium",
+      "period": "morning",
+      "kind": "food",
+      "qty": "1 medium (~200g edible)",
+      "pantry_id": "mango",
+      "kcal": 120,
+      "protein": 1.6,
+      "fat": 0.8,
+      "carbs": {
+        "sugars": {
+          "fruit": 27,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 3.2,
+        "starch": 1
+      },
+      "micros": {
+        "vit_c_mg": 73,
+        "vit_a_ug": 108,
+        "potassium_mg": 336,
+        "magnesium_mg": 20
+      },
+      "cost_thb": null,
+      "estimate": true,
+      "evidence": "Whole fruit: well-studied.",
+      "feeling": null
+    },
+    {
+      "name": "Eucerin shower oil (body wash)",
+      "period": "morning",
+      "kind": "skincare",
+      "qty": "1 wash",
+      "pantry_id": "eucerin-oil",
+      "cost_thb": null,
+      "estimate": true,
+      "flags": [
+        "petroleum? (likely mineral oil / paraffinum liquidum, label pending)"
+      ],
+      "evidence": "Check INCI list for paraffinum liquidum."
+    },
+    {
+      "name": "Eucerin moisturizer (line)",
+      "period": "morning",
+      "kind": "skincare",
+      "qty": "body",
+      "pantry_id": "eucerin-cream",
+      "cost_thb": null,
+      "estimate": true,
+      "flags": [
+        "petroleum? (some Eucerin creams list petrolatum, label pending)"
+      ],
+      "evidence": "Label pending."
+    },
+    {
+      "name": "Baby shampoo",
+      "period": "morning",
+      "kind": "skincare",
+      "qty": "hair",
+      "pantry_id": "baby-shampoo",
+      "cost_thb": null,
+      "estimate": true,
+      "flags": [
+        "fragrance? (most baby shampoos contain parfum, label pending)"
+      ],
+      "evidence": "Gentle surfactants."
+    }
+  ]
+}
