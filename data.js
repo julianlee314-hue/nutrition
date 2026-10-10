@@ -451,6 +451,37 @@ window.NUTRITION_DATA={
      "cost_note": "Carl default: Organic Grass Fed Milk, Paleo Robbie \u0e3f0.1416/mL (if Meiji: \u0e3f5.15)",
      "estimate": true,
      "evidence": "Whole dairy: well-studied calcium source."
+    },
+    {
+     "name": "Creamy pepper jack chicken & potato stew (big bowl) + ~1/2 bok choy",
+     "period": "evening",
+     "kind": "food",
+     "qty": "1 big bowl + ~1/2 bok choy",
+     "pantry_id": null,
+     "kcal": 560,
+     "protein": 35,
+     "fat": 25,
+     "carbs": {
+      "sugars": {
+       "fruit": 3,
+       "added": 0,
+       "lactose": 3
+      },
+      "fiber": 6,
+      "starch": 35
+     },
+     "micros": {
+      "vit_a_ug": 300,
+      "potassium_mg": 900,
+      "calcium_mg": 250,
+      "vit_c_mg": 30,
+      "vit_k_ug": 50
+     },
+     "cost_thb": null,
+     "cost_estimate": true,
+     "cost_note": "homemade; ingredient costs pending",
+     "estimate": true,
+     "evidence": "Home-cooked whole-food meal; bok choy greens bring vit A/C/K. Natural sugar split veg/dairy."
     }
    ]
   }
