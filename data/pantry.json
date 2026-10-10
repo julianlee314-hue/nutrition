@@ -162,10 +162,10 @@
       "brand": "Coca-Cola",
       "serving": "250mL",
       "label_status": "pending",
-      "unit_price_thb": 23.6,
+      "unit_price_thb": 11.1,
       "unit": "bottle",
       "price_estimate": true,
-      "price_note": "Lazada 24-case ฿566.26; Freshket receipt pending",
+      "price_note": "Julius's estimate of Freshket price; receipt pending",
       "ingredients": null,
       "photo": null
     }

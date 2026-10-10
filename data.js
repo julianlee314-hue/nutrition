@@ -337,11 +337,11 @@ window.NUTRITION_DATA={
       "sodium_mg": 10
      },
      "caffeine_mg": 30,
-     "cost_thb": 23.6,
+     "cost_thb": 11.1,
      "estimate": true,
      "evidence": "treat; added sugar",
      "cost_estimate": true,
-     "cost_note": "Lazada 24-bottle case \u0e3f566.26 / 24; Freshket receipt pending"
+     "cost_note": "Julius's estimate of Freshket price; receipt pending"
     }
    ]
   }
@@ -510,10 +510,10 @@ window.NUTRITION_DATA={
     "brand": "Coca-Cola",
     "serving": "250mL",
     "label_status": "pending",
-    "unit_price_thb": 23.6,
+    "unit_price_thb": 11.1,
     "unit": "bottle",
     "price_estimate": true,
-    "price_note": "Lazada 24-case \u0e3f566.26; Freshket receipt pending",
+    "price_note": "Julius's estimate of Freshket price; receipt pending",
     "ingredients": null,
     "photo": null
    }
