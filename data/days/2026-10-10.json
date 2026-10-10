@@ -329,11 +329,11 @@
         "sodium_mg": 10
       },
       "caffeine_mg": 30,
-      "cost_thb": 11.1,
+      "cost_thb": 12.24,
       "estimate": true,
       "evidence": "treat; added sugar",
-      "cost_estimate": true,
-      "cost_note": "Julius's estimate of Freshket price; receipt pending"
+      "cost_estimate": false,
+      "cost_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65"
     }
   ]
 }

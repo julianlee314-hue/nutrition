@@ -162,10 +162,10 @@
       "brand": "Coca-Cola",
       "serving": "250mL",
       "label_status": "pending",
-      "unit_price_thb": 11.1,
+      "unit_price_thb": 12.24,
       "unit": "bottle",
-      "price_estimate": true,
-      "price_note": "Julius's estimate of Freshket price; receipt pending",
+      "price_estimate": false,
+      "price_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65",
       "ingredients": null,
       "photo": null
     }

@@ -337,11 +337,11 @@ window.NUTRITION_DATA={
       "sodium_mg": 10
      },
      "caffeine_mg": 30,
-     "cost_thb": 11.1,
+     "cost_thb": 12.24,
      "estimate": true,
      "evidence": "treat; added sugar",
-     "cost_estimate": true,
-     "cost_note": "Julius's estimate of Freshket price; receipt pending"
+     "cost_estimate": false,
+     "cost_note": "Freshket receipt 2026-09-13: 2x24 for \u0e3f587.65"
     }
    ]
   }
@@ -510,10 +510,10 @@ window.NUTRITION_DATA={
     "brand": "Coca-Cola",
     "serving": "250mL",
     "label_status": "pending",
-    "unit_price_thb": 11.1,
+    "unit_price_thb": 12.24,
     "unit": "bottle",
-    "price_estimate": true,
-    "price_note": "Julius's estimate of Freshket price; receipt pending",
+    "price_estimate": false,
+    "price_note": "Freshket receipt 2026-09-13: 2x24 for \u0e3f587.65",
     "ingredients": null,
     "photo": null
    }
