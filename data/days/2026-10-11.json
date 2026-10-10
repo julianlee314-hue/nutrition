@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-11",
+  "weekday": "Sun",
+  "training": "Sun",
+  "note": "Morning so far.",
+  "mood": [
+    {
+      "period": "morning",
+      "mood": null,
+      "energy": null,
+      "note": "not yet tapped"
+    }
+  ],
+  "items": [
+    {
+      "name": "Taobin double Americano + evap milk",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "double shot + 25g evap",
+      "pantry_id": "taobin-espresso",
+      "kcal": 40,
+      "protein": 2,
+      "fat": 2,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 3
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 60,
+        "potassium_mg": 150
+      },
+      "cost_thb": 46.0,
+      "cost_estimate": false,
+      "cost_note": "45 double shot + ~1.0 evap milk 25g",
+      "estimate": true,
+      "evidence": "Caffeine pre-exercise: well-studied."
+    },
+    {
+      "name": "Royal-D electrolyte, grape (1 sachet)",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "1 sachet + water",
+      "pantry_id": "royal-d-grape",
+      "kcal": 90,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 22,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 200,
+        "potassium_mg": 80
+      },
+      "cost_thb": 6.51,
+      "cost_estimate": false,
+      "estimate": true,
+      "evidence": "Glucose + salts: well-studied for fuelling & hydration."
+    },
+    {
+      "name": "Llamito beetroot powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "15g",
+      "pantry_id": "beetroot-powder",
+      "kcal": 55,
+      "protein": 1.5,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 8,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 2,
+        "starch": 1
+      },
+      "micros": {
+        "potassium_mg": 225
+      },
+      "folate_note": "folate",
+      "cost_thb": 31.5,
+      "cost_estimate": true,
+      "cost_note": "~฿2.1/g; 250g tin price pending",
+      "estimate": true,
+      "evidence": "Dietary nitrate (~2-3h pre-swim) for endurance: well-studied. Also folate & potassium."
+    }
+  ]
+}

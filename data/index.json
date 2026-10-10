@@ -1,6 +1,7 @@
 {
   "days": [
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
   ],
   "pantry": "data/pantry.json",
   "training": "data/training.json",
