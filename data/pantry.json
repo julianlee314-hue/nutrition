@@ -6,10 +6,11 @@
       "brand": "Royal-D",
       "serving": "1 sachet (25g)",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 6.51,
+      "unit": "sachet",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": false
     },
     {
       "id": "taobin-espresso",
@@ -17,21 +18,23 @@
       "brand": "Taobin",
       "serving": "1 cup",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 45,
+      "unit": "double shot",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": false
     },
     {
       "id": "greek-yogurt",
       "name": "Greek yogurt, full fat",
-      "brand": "?",
+      "brand": "store-made, no added sugar",
       "serving": "150g",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 270,
+      "unit": "kg",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": false
     },
     {
       "id": "whey",
@@ -39,10 +42,11 @@
       "brand": "?",
       "serving": "25g",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 23.87,
+      "unit": "25g",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": false
     },
     {
       "id": "collagen",
@@ -50,21 +54,23 @@
       "brand": "?",
       "serving": "15g",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 11.33,
+      "unit": "15g",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": false
     },
     {
       "id": "berry-powder",
       "name": "Mixed berry powder",
-      "brand": "?",
+      "brand": "Llamito",
       "serving": "15g",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 990,
+      "unit": "250g tin",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": true
     },
     {
       "id": "sunflower-seeds",
@@ -72,10 +78,11 @@
       "brand": "?",
       "serving": "15g",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 3.66,
+      "unit": "15g",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": true
     },
     {
       "id": "mango",
@@ -83,21 +90,23 @@
       "brand": "fresh",
       "serving": "1 medium",
       "label_status": "n/a",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 60,
+      "unit": "each (180 for 3)",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": false
     },
     {
       "id": "beetroot-powder",
       "name": "Beetroot powder",
-      "brand": "?",
+      "brand": "Llamito",
       "serving": "? g (target 6-8 mmol nitrate)",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 8.4,
+      "unit": "4g",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": true
     },
     {
       "id": "eucerin-oil",
@@ -105,10 +114,11 @@
       "brand": "Eucerin",
       "serving": "1 wash",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 7.25,
+      "unit": "wash",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": true
     },
     {
       "id": "eucerin-cream",
@@ -116,10 +126,11 @@
       "brand": "Eucerin",
       "serving": "body",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 16.5,
+      "unit": "application",
       "ingredients": null,
-      "photo": null
+      "photo": null,
+      "price_estimate": true
     },
     {
       "id": "baby-shampoo",
@@ -127,8 +138,21 @@
       "brand": "?",
       "serving": "hair",
       "label_status": "pending",
-      "unit_price_thb": null,
-      "unit": null,
+      "unit_price_thb": 6.6,
+      "unit": "wash",
+      "ingredients": null,
+      "photo": null,
+      "price_estimate": true
+    },
+    {
+      "id": "evap-milk",
+      "name": "Evaporated milk",
+      "brand": "?",
+      "serving": "33g",
+      "label_status": "pending",
+      "unit_price_thb": 12,
+      "unit": "300mL can",
+      "price_estimate": false,
       "ingredients": null,
       "photo": null
     }

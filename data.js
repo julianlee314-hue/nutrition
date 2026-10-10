@@ -21,6 +21,33 @@ window.NUTRITION_DATA={
    ],
    "items": [
     {
+     "name": "Llamito beetroot powder (pre-swim)",
+     "period": "morning",
+     "kind": "supplement",
+     "qty": "4g",
+     "pantry_id": "beetroot-powder",
+     "kcal": 15,
+     "protein": 0.4,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 2.7,
+       "added": 0,
+       "lactose": 0
+      },
+      "fiber": 0.3,
+      "starch": 0
+     },
+     "micros": {
+      "potassium_mg": 60
+     },
+     "cost_thb": 8.4,
+     "cost_estimate": true,
+     "estimate": true,
+     "evidence": "Dietary nitrate to nitric oxide; take 2-3h pre-swim; ~6-8 mmol nitrate in studies (check label). Endurance benefit: well-studied. ~3g carbs, mostly beet sugar.",
+     "sugars_note": "~2.7g natural beet sugar"
+    },
+    {
      "name": "Royal-D electrolyte, grape (1 sachet)",
      "period": "morning",
      "kind": "drink",
@@ -42,10 +69,11 @@ window.NUTRITION_DATA={
       "sodium_mg": 200,
       "potassium_mg": 80
      },
-     "cost_thb": null,
+     "cost_thb": 6.51,
      "estimate": true,
      "evidence": "Glucose + salts before the swim: well-studied for fuelling & hydration.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": false
     },
     {
      "name": "Taobin double espresso + evap milk",
@@ -69,13 +97,15 @@ window.NUTRITION_DATA={
       "calcium_mg": 80,
       "potassium_mg": 180
      },
-     "cost_thb": null,
+     "cost_thb": 46.3,
      "estimate": true,
      "evidence": "Caffeine pre-exercise: well-studied.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": false,
+     "cost_note": "45 double shot + 1.3 evap milk 33g (12 THB/300mL can)"
     },
     {
-     "name": "Greek yogurt, full fat",
+     "name": "Greek yogurt, full fat (store-made, no added sugar)",
      "period": "morning",
      "kind": "food",
      "qty": "150g",
@@ -97,10 +127,11 @@ window.NUTRITION_DATA={
       "potassium_mg": 210,
       "selenium_ug": 14
      },
-     "cost_thb": null,
+     "cost_thb": 40.5,
      "estimate": true,
      "evidence": "Fermented dairy, living cultures: promising.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": false
     },
     {
      "name": "Whey protein, unflavored",
@@ -123,10 +154,11 @@ window.NUTRITION_DATA={
      "micros": {
       "calcium_mg": 110
      },
-     "cost_thb": null,
+     "cost_thb": 23.87,
      "estimate": true,
      "evidence": "Complete protein for recovery: well-studied.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": false
     },
     {
      "name": "Collagen peptides",
@@ -147,13 +179,14 @@ window.NUTRITION_DATA={
       "starch": 0
      },
      "micros": {},
-     "cost_thb": null,
+     "cost_thb": 11.33,
      "estimate": true,
      "evidence": "Not a complete protein; skin/joint benefits: promising.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": false
     },
     {
-     "name": "Mixed berry powder",
+     "name": "Llamito mixed berry powder",
      "period": "morning",
      "kind": "supplement",
      "qty": "15g",
@@ -173,10 +206,11 @@ window.NUTRITION_DATA={
      "micros": {
       "vit_c_mg": 15
      },
-     "cost_thb": null,
+     "cost_thb": 59.4,
      "estimate": true,
      "evidence": "Label pending; polyphenols: promising.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": true
     },
     {
      "name": "Sunflower seeds",
@@ -202,10 +236,11 @@ window.NUTRITION_DATA={
       "magnesium_mg": 49,
       "iron_mg": 0.8
      },
-     "cost_thb": null,
+     "cost_thb": 3.66,
      "estimate": true,
      "evidence": "Vitamin E & selenium source: well-studied nutrients.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": true
     },
     {
      "name": "Mango, medium",
@@ -231,10 +266,11 @@ window.NUTRITION_DATA={
       "potassium_mg": 336,
       "magnesium_mg": 20
      },
-     "cost_thb": null,
+     "cost_thb": 60,
      "estimate": true,
      "evidence": "Whole fruit: well-studied.",
-     "feeling": null
+     "feeling": null,
+     "cost_estimate": false
     },
     {
      "name": "Eucerin shower oil (body wash)",
@@ -242,12 +278,13 @@ window.NUTRITION_DATA={
      "kind": "skincare",
      "qty": "1 wash",
      "pantry_id": "eucerin-oil",
-     "cost_thb": null,
+     "cost_thb": 7.25,
      "estimate": true,
      "flags": [
       "petroleum? (likely mineral oil / paraffinum liquidum, label pending)"
      ],
-     "evidence": "Check INCI list for paraffinum liquidum."
+     "evidence": "Check INCI list for paraffinum liquidum.",
+     "cost_estimate": true
     },
     {
      "name": "Eucerin moisturizer (line)",
@@ -255,12 +292,14 @@ window.NUTRITION_DATA={
      "kind": "skincare",
      "qty": "body",
      "pantry_id": "eucerin-cream",
-     "cost_thb": null,
+     "cost_thb": 16.5,
      "estimate": true,
      "flags": [
       "petroleum? (some Eucerin creams list petrolatum, label pending)"
      ],
-     "evidence": "Label pending."
+     "evidence": "Label pending.",
+     "cost_estimate": true,
+     "cost_note": "cream type unknown"
     },
     {
      "name": "Baby shampoo",
@@ -268,12 +307,13 @@ window.NUTRITION_DATA={
      "kind": "skincare",
      "qty": "hair",
      "pantry_id": "baby-shampoo",
-     "cost_thb": null,
+     "cost_thb": 6.6,
      "estimate": true,
      "flags": [
       "fragrance? (most baby shampoos contain parfum, label pending)"
      ],
-     "evidence": "Gentle surfactants."
+     "evidence": "Gentle surfactants.",
+     "cost_estimate": true
     }
    ]
   }
@@ -286,10 +326,11 @@ window.NUTRITION_DATA={
     "brand": "Royal-D",
     "serving": "1 sachet (25g)",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 6.51,
+    "unit": "sachet",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": false
    },
    {
     "id": "taobin-espresso",
@@ -297,21 +338,23 @@ window.NUTRITION_DATA={
     "brand": "Taobin",
     "serving": "1 cup",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 45,
+    "unit": "double shot",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": false
    },
    {
     "id": "greek-yogurt",
     "name": "Greek yogurt, full fat",
-    "brand": "?",
+    "brand": "store-made, no added sugar",
     "serving": "150g",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 270,
+    "unit": "kg",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": false
    },
    {
     "id": "whey",
@@ -319,10 +362,11 @@ window.NUTRITION_DATA={
     "brand": "?",
     "serving": "25g",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 23.87,
+    "unit": "25g",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": false
    },
    {
     "id": "collagen",
@@ -330,21 +374,23 @@ window.NUTRITION_DATA={
     "brand": "?",
     "serving": "15g",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 11.33,
+    "unit": "15g",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": false
    },
    {
     "id": "berry-powder",
     "name": "Mixed berry powder",
-    "brand": "?",
+    "brand": "Llamito",
     "serving": "15g",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 990,
+    "unit": "250g tin",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": true
    },
    {
     "id": "sunflower-seeds",
@@ -352,10 +398,11 @@ window.NUTRITION_DATA={
     "brand": "?",
     "serving": "15g",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 3.66,
+    "unit": "15g",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": true
    },
    {
     "id": "mango",
@@ -363,21 +410,23 @@ window.NUTRITION_DATA={
     "brand": "fresh",
     "serving": "1 medium",
     "label_status": "n/a",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 60,
+    "unit": "each (180 for 3)",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": false
    },
    {
     "id": "beetroot-powder",
     "name": "Beetroot powder",
-    "brand": "?",
+    "brand": "Llamito",
     "serving": "? g (target 6-8 mmol nitrate)",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 8.4,
+    "unit": "4g",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": true
    },
    {
     "id": "eucerin-oil",
@@ -385,10 +434,11 @@ window.NUTRITION_DATA={
     "brand": "Eucerin",
     "serving": "1 wash",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 7.25,
+    "unit": "wash",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": true
    },
    {
     "id": "eucerin-cream",
@@ -396,10 +446,11 @@ window.NUTRITION_DATA={
     "brand": "Eucerin",
     "serving": "body",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 16.5,
+    "unit": "application",
     "ingredients": null,
-    "photo": null
+    "photo": null,
+    "price_estimate": true
    },
    {
     "id": "baby-shampoo",
@@ -407,8 +458,21 @@ window.NUTRITION_DATA={
     "brand": "?",
     "serving": "hair",
     "label_status": "pending",
-    "unit_price_thb": null,
-    "unit": null,
+    "unit_price_thb": 6.6,
+    "unit": "wash",
+    "ingredients": null,
+    "photo": null,
+    "price_estimate": true
+   },
+   {
+    "id": "evap-milk",
+    "name": "Evaporated milk",
+    "brand": "?",
+    "serving": "33g",
+    "label_status": "pending",
+    "unit_price_thb": 12,
+    "unit": "300mL can",
+    "price_estimate": false,
     "ingredients": null,
     "photo": null
    }
