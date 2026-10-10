@@ -342,6 +342,115 @@ window.NUTRITION_DATA={
      "evidence": "treat; added sugar",
      "cost_estimate": false,
      "cost_note": "Freshket receipt 2026-09-13: 2x24 for \u0e3f587.65"
+    },
+    {
+     "name": "Coca-Cola Original (250mL glass bottle)",
+     "period": "evening",
+     "kind": "drink",
+     "qty": "250mL",
+     "pantry_id": "coke-250-glass",
+     "kcal": 105,
+     "protein": 0,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 27,
+       "lactose": 0
+      },
+      "fiber": 0,
+      "starch": 0
+     },
+     "micros": {
+      "sodium_mg": 10
+     },
+     "caffeine_mg": 30,
+     "cost_thb": 12.24,
+     "estimate": true,
+     "evidence": "treat; added sugar",
+     "cost_estimate": false,
+     "cost_note": "Freshket receipt 2026-09-13: 2x24 for \u0e3f587.65"
+    },
+    {
+     "name": "Bran flakes (raisin bran)",
+     "period": "evening",
+     "kind": "food",
+     "qty": "30g",
+     "pantry_id": null,
+     "kcal": 95,
+     "protein": 3,
+     "fat": 0.6,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 5,
+       "lactose": 0
+      },
+      "fiber": 5,
+      "starch": 14
+     },
+     "micros": {
+      "iron_mg": 8
+     },
+     "cost_thb": null,
+     "cost_estimate": true,
+     "cost_note": "No bran flakes in Carl's price list or price book",
+     "estimate": true,
+     "evidence": "Fortified iron + B vitamins; cereal fiber: well-studied."
+    },
+    {
+     "name": "Raisins",
+     "period": "evening",
+     "kind": "food",
+     "qty": "15g",
+     "pantry_id": null,
+     "kcal": 45,
+     "protein": 0.5,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 11,
+       "added": 0,
+       "lactose": 0
+      },
+      "fiber": 0.5,
+      "starch": 0
+     },
+     "micros": {
+      "potassium_mg": 112
+     },
+     "cost_thb": 2.9,
+     "cost_estimate": true,
+     "cost_note": "Raisins 3 kinds 1.5kg, Lazada 2026-02-01 (\u0e3f0.193/g)",
+     "estimate": true,
+     "evidence": "Dried fruit: whole-fruit sugar, concentrated."
+    },
+    {
+     "name": "Whole milk",
+     "period": "evening",
+     "kind": "food",
+     "qty": "100g",
+     "pantry_id": null,
+     "kcal": 61,
+     "protein": 3.2,
+     "fat": 3.3,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 0,
+       "lactose": 4.8
+      },
+      "fiber": 0,
+      "starch": 0
+     },
+     "micros": {
+      "calcium_mg": 113
+     },
+     "cost_thb": 14.16,
+     "cost_estimate": true,
+     "cost_note": "Carl default: Organic Grass Fed Milk, Paleo Robbie \u0e3f0.1416/mL (if Meiji: \u0e3f5.15)",
+     "estimate": true,
+     "evidence": "Whole dairy: well-studied calcium source."
     }
    ]
   }
