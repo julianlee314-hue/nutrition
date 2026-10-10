@@ -314,6 +314,32 @@ window.NUTRITION_DATA={
      ],
      "evidence": "Gentle surfactants.",
      "cost_estimate": true
+    },
+    {
+     "name": "Coca-Cola Original (250mL glass bottle)",
+     "period": "midday",
+     "kind": "drink",
+     "qty": "250mL",
+     "pantry_id": null,
+     "kcal": 105,
+     "protein": 0,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 27,
+       "lactose": 0
+      },
+      "fiber": 0,
+      "starch": 0
+     },
+     "micros": {
+      "sodium_mg": 10
+     },
+     "caffeine_mg": 30,
+     "cost_thb": null,
+     "estimate": true,
+     "evidence": "treat; added sugar"
     }
    ]
   }
