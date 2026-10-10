@@ -312,7 +312,7 @@
       "period": "midday",
       "kind": "drink",
       "qty": "250mL",
-      "pantry_id": null,
+      "pantry_id": "coke-250-glass",
       "kcal": 105,
       "protein": 0,
       "fat": 0,
@@ -329,9 +329,11 @@
         "sodium_mg": 10
       },
       "caffeine_mg": 30,
-      "cost_thb": null,
+      "cost_thb": 23.6,
       "estimate": true,
-      "evidence": "treat; added sugar"
+      "evidence": "treat; added sugar",
+      "cost_estimate": true,
+      "cost_note": "Lazada 24-bottle case ฿566.26 / 24; Freshket receipt pending"
     }
   ]
 }

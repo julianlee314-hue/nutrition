@@ -155,6 +155,19 @@
       "price_estimate": false,
       "ingredients": null,
       "photo": null
+    },
+    {
+      "id": "coke-250-glass",
+      "name": "Coca-Cola Original 250mL glass bottle",
+      "brand": "Coca-Cola",
+      "serving": "250mL",
+      "label_status": "pending",
+      "unit_price_thb": 23.6,
+      "unit": "bottle",
+      "price_estimate": true,
+      "price_note": "Lazada 24-case ฿566.26; Freshket receipt pending",
+      "ingredients": null,
+      "photo": null
     }
   ]
 }

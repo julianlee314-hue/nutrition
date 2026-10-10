@@ -320,7 +320,7 @@ window.NUTRITION_DATA={
      "period": "midday",
      "kind": "drink",
      "qty": "250mL",
-     "pantry_id": null,
+     "pantry_id": "coke-250-glass",
      "kcal": 105,
      "protein": 0,
      "fat": 0,
@@ -337,9 +337,11 @@ window.NUTRITION_DATA={
       "sodium_mg": 10
      },
      "caffeine_mg": 30,
-     "cost_thb": null,
+     "cost_thb": 23.6,
      "estimate": true,
-     "evidence": "treat; added sugar"
+     "evidence": "treat; added sugar",
+     "cost_estimate": true,
+     "cost_note": "Lazada 24-bottle case \u0e3f566.26 / 24; Freshket receipt pending"
     }
    ]
   }
@@ -499,6 +501,19 @@ window.NUTRITION_DATA={
     "unit_price_thb": 12,
     "unit": "300mL can",
     "price_estimate": false,
+    "ingredients": null,
+    "photo": null
+   },
+   {
+    "id": "coke-250-glass",
+    "name": "Coca-Cola Original 250mL glass bottle",
+    "brand": "Coca-Cola",
+    "serving": "250mL",
+    "label_status": "pending",
+    "unit_price_thb": 23.6,
+    "unit": "bottle",
+    "price_estimate": true,
+    "price_note": "Lazada 24-case \u0e3f566.26; Freshket receipt pending",
     "ingredients": null,
     "photo": null
    }
