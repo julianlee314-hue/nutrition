@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "weekday": "Sun",
   "training": "Sun",
-  "note": "Morning so far.",
+  "note": "Morning and midday logged.",
   "mood": [
     {
       "period": "morning",
@@ -94,6 +94,258 @@
       "cost_note": "~฿2.1/g; 250g tin price pending",
       "estimate": true,
       "evidence": "Dietary nitrate (~2-3h pre-swim) for endurance: well-studied. Also folate & potassium."
+    },
+    {
+      "name": "Greek yogurt, full fat (store-made, no added sugar)",
+      "period": "morning",
+      "kind": "food",
+      "qty": "180g",
+      "pantry_id": "greek-yogurt",
+      "kcal": 174,
+      "protein": 17,
+      "fat": 9,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 7
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 200,
+        "potassium_mg": 250,
+        "selenium_ug": 17
+      },
+      "cost_thb": 48.6,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Fermented dairy, living cultures: promising."
+    },
+    {
+      "name": "Whey protein, unflavored",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "30g",
+      "pantry_id": "whey",
+      "kcal": 120,
+      "protein": 24,
+      "fat": 1.8,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 1.8
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 130
+      },
+      "cost_thb": 28.64,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Complete protein for recovery: well-studied."
+    },
+    {
+      "name": "Collagen peptides",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "10g",
+      "pantry_id": "collagen",
+      "kcal": 36,
+      "protein": 9,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {},
+      "cost_thb": 7.55,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Not a complete protein; skin/joint benefits: promising."
+    },
+    {
+      "name": "Llamito mixed berry powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "5g",
+      "pantry_id": "berry-powder",
+      "kcal": 17,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": {
+        "sugars": {
+          "fruit": 2,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1,
+        "starch": 0.5
+      },
+      "micros": {
+        "vit_c_mg": 5
+      },
+      "cost_thb": 19.8,
+      "cost_estimate": true,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Polyphenols: promising."
+    },
+    {
+      "name": "Sunflower seeds",
+      "period": "morning",
+      "kind": "food",
+      "qty": "20g",
+      "pantry_id": "sunflower-seeds",
+      "kcal": 117,
+      "protein": 4,
+      "fat": 10,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1.7,
+        "starch": 2
+      },
+      "micros": {
+        "vit_e_mg": 7,
+        "selenium_ug": 11,
+        "magnesium_mg": 65,
+        "iron_mg": 1
+      },
+      "cost_thb": 4.88,
+      "cost_estimate": true,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Vitamin E & selenium source: well-studied nutrients."
+    },
+    {
+      "name": "Raisins",
+      "period": "morning",
+      "kind": "food",
+      "qty": "10g",
+      "pantry_id": null,
+      "kcal": 30,
+      "protein": 0.3,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 8,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "potassium_mg": 75
+      },
+      "cost_thb": 1.93,
+      "cost_estimate": true,
+      "cost_note": "Raisins 3 kinds 1.5kg, Lazada 2026-02-01 (฿0.193/g)",
+      "estimate": true,
+      "evidence": "Dried fruit: concentrated whole-fruit sugar."
+    },
+    {
+      "name": "Coca-Cola Original (250mL glass bottle)",
+      "period": "midday",
+      "kind": "drink",
+      "qty": "250mL",
+      "pantry_id": "coke-250-glass",
+      "kcal": 105,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 27,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 10
+      },
+      "caffeine_mg": 30,
+      "cost_thb": 12.24,
+      "estimate": true,
+      "evidence": "treat; added sugar",
+      "cost_estimate": false,
+      "cost_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65"
+    },
+    {
+      "name": "Coca-Cola Original (250mL glass bottle)",
+      "period": "midday",
+      "kind": "drink",
+      "qty": "250mL",
+      "pantry_id": "coke-250-glass",
+      "kcal": 105,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 27,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 10
+      },
+      "caffeine_mg": 30,
+      "cost_thb": 12.24,
+      "estimate": true,
+      "evidence": "treat; added sugar",
+      "cost_estimate": false,
+      "cost_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65"
+    },
+    {
+      "name": "Creamy pepper jack chicken & potato stew (big bowl) + ~1/2 bok choy",
+      "period": "midday",
+      "kind": "food",
+      "qty": "1 big bowl + ~1/2 bok choy",
+      "pantry_id": null,
+      "kcal": 560,
+      "protein": 35,
+      "fat": 25,
+      "carbs": {
+        "sugars": {
+          "fruit": 3,
+          "added": 0,
+          "lactose": 3
+        },
+        "fiber": 6,
+        "starch": 35
+      },
+      "micros": {
+        "vit_a_ug": 300,
+        "potassium_mg": 900,
+        "calcium_mg": 250,
+        "vit_c_mg": 30,
+        "vit_k_ug": 50
+      },
+      "cost_thb": null,
+      "cost_estimate": true,
+      "cost_note": "homemade; ingredient costs pending",
+      "estimate": true,
+      "evidence": "Home-cooked whole-food meal; bok choy greens bring vit A/C/K. Natural sugar split veg/dairy."
     }
   ]
 }
