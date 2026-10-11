@@ -490,7 +490,7 @@ window.NUTRITION_DATA={
    "date": "2026-10-11",
    "weekday": "Sun",
    "training": "Sun",
-   "note": "Morning and midday logged.",
+   "note": "Full day logged; evening was a worth-it social meal.",
    "mood": [
     {
      "period": "morning",
@@ -834,6 +834,117 @@ window.NUTRITION_DATA={
      "cost_note": "homemade; ingredient costs pending",
      "estimate": true,
      "evidence": "Home-cooked whole-food meal; bok choy greens bring vit A/C/K. Natural sugar split veg/dairy."
+    },
+    {
+     "name": "3 Egg Omelet w/ bacon, goat cheese, onion, pepper, tomato, mushroom + potatoes & ketchup",
+     "period": "evening",
+     "kind": "food",
+     "meal_type": "worth-it (social)",
+     "qty": "1 plate",
+     "pantry_id": null,
+     "kcal": 750,
+     "protein": 35,
+     "fat": 50,
+     "carbs": {
+      "sugars": {
+       "fruit": 5,
+       "added": 2,
+       "lactose": 0
+      },
+      "fiber": 3,
+      "starch": 30
+     },
+     "micros": {
+      "vit_c_mg": 45,
+      "vit_a_ug": 250,
+      "selenium_ug": 40,
+      "potassium_mg": 900,
+      "iron_mg": 3
+     },
+     "cost_thb": 306,
+     "cost_estimate": true,
+     "estimate": true,
+     "evidence": "Eggs: B12 & choline, well-studied. Natural sugar from veg/tomato."
+    },
+    {
+     "name": "Side French Toast w/ syrup & butter",
+     "period": "evening",
+     "kind": "food",
+     "meal_type": "worth-it (social)",
+     "qty": "1 side",
+     "pantry_id": null,
+     "kcal": 500,
+     "protein": 10,
+     "fat": 20,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 25,
+       "lactose": 3
+      },
+      "fiber": 2,
+      "starch": 40
+     },
+     "micros": {
+      "calcium_mg": 80,
+      "iron_mg": 2
+     },
+     "cost_thb": 165,
+     "cost_estimate": true,
+     "estimate": true,
+     "evidence": "Treat; added sugar."
+    },
+    {
+     "name": "Milky Way chocolate bar (Canadian)",
+     "period": "evening",
+     "kind": "food",
+     "meal_type": "worth-it (social)",
+     "qty": "~52g",
+     "pantry_id": null,
+     "kcal": 240,
+     "protein": 2,
+     "fat": 9,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 30,
+       "lactose": 2
+      },
+      "fiber": 0,
+      "starch": 5
+     },
+     "micros": {
+      "calcium_mg": 60
+     },
+     "cost_thb": 118,
+     "cost_estimate": true,
+     "estimate": true,
+     "evidence": "Treat; added sugar."
+    },
+    {
+     "name": "Delivery fee (net)",
+     "period": "evening",
+     "kind": "fee",
+     "meal_type": "worth-it (social)",
+     "qty": "1 order",
+     "pantry_id": null,
+     "kcal": 0,
+     "protein": 0,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 0,
+       "lactose": 0
+      },
+      "fiber": 0,
+      "starch": 0
+     },
+     "micros": {},
+     "cost_thb": 71,
+     "cost_estimate": true,
+     "estimate": true,
+     "evidence": "Cost-only line."
     }
    ]
   }
