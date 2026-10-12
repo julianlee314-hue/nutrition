@@ -3,7 +3,8 @@ window.NUTRITION_DATA={
  "index": {
   "days": [
    "2026-10-10",
-   "2026-10-11"
+   "2026-10-11",
+   "2026-10-12"
   ]
  },
  "days": {
@@ -490,7 +491,7 @@ window.NUTRITION_DATA={
    "date": "2026-10-11",
    "weekday": "Sun",
    "training": "Sun",
-   "note": "Full day logged; evening was a worth-it social meal.",
+   "note": "Full day logged; evening was a worth-it social meal (French toast saved, eaten Oct 12).",
    "mood": [
     {
      "period": "morning",
@@ -867,34 +868,6 @@ window.NUTRITION_DATA={
      "evidence": "Eggs: B12 & choline, well-studied. Natural sugar from veg/tomato."
     },
     {
-     "name": "Side French Toast w/ syrup & butter",
-     "period": "evening",
-     "kind": "food",
-     "meal_type": "worth-it (social)",
-     "qty": "1 side",
-     "pantry_id": null,
-     "kcal": 500,
-     "protein": 10,
-     "fat": 20,
-     "carbs": {
-      "sugars": {
-       "fruit": 0,
-       "added": 25,
-       "lactose": 3
-      },
-      "fiber": 2,
-      "starch": 40
-     },
-     "micros": {
-      "calcium_mg": 80,
-      "iron_mg": 2
-     },
-     "cost_thb": 165,
-     "cost_estimate": true,
-     "estimate": true,
-     "evidence": "Treat; added sugar."
-    },
-    {
      "name": "Milky Way chocolate bar (Canadian)",
      "period": "evening",
      "kind": "food",
@@ -945,6 +918,51 @@ window.NUTRITION_DATA={
      "cost_estimate": true,
      "estimate": true,
      "evidence": "Cost-only line."
+    }
+   ]
+  },
+  "2026-10-12": {
+   "date": "2026-10-12",
+   "weekday": "Mon",
+   "training": "Mon",
+   "note": "Midday: French toast leftovers from the Oct 11 dinner.",
+   "mood": [
+    {
+     "period": "midday",
+     "mood": null,
+     "energy": null,
+     "note": "not yet tapped"
+    }
+   ],
+   "items": [
+    {
+     "name": "Side French Toast w/ syrup & butter",
+     "period": "midday",
+     "kind": "food",
+     "meal_type": "worth-it (social)",
+     "qty": "1 side",
+     "pantry_id": null,
+     "kcal": 500,
+     "protein": 10,
+     "fat": 20,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 25,
+       "lactose": 3
+      },
+      "fiber": 2,
+      "starch": 40
+     },
+     "micros": {
+      "calcium_mg": 80,
+      "iron_mg": 2
+     },
+     "cost_thb": 165,
+     "cost_estimate": true,
+     "estimate": true,
+     "evidence": "Treat; added sugar.",
+     "note": "Leftover from Oct 11 Grab dinner; its own \u0e3f165 moved with it."
     }
    ]
   }

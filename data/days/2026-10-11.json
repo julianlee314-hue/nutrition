@@ -2,7 +2,7 @@
   "date": "2026-10-11",
   "weekday": "Sun",
   "training": "Sun",
-  "note": "Full day logged; evening was a worth-it social meal.",
+  "note": "Full day logged; evening was a worth-it social meal (French toast saved, eaten Oct 12).",
   "mood": [
     {
       "period": "morning",
@@ -377,34 +377,6 @@
       "cost_estimate": true,
       "estimate": true,
       "evidence": "Eggs: B12 & choline, well-studied. Natural sugar from veg/tomato."
-    },
-    {
-      "name": "Side French Toast w/ syrup & butter",
-      "period": "evening",
-      "kind": "food",
-      "meal_type": "worth-it (social)",
-      "qty": "1 side",
-      "pantry_id": null,
-      "kcal": 500,
-      "protein": 10,
-      "fat": 20,
-      "carbs": {
-        "sugars": {
-          "fruit": 0,
-          "added": 25,
-          "lactose": 3
-        },
-        "fiber": 2,
-        "starch": 40
-      },
-      "micros": {
-        "calcium_mg": 80,
-        "iron_mg": 2
-      },
-      "cost_thb": 165,
-      "cost_estimate": true,
-      "estimate": true,
-      "evidence": "Treat; added sugar."
     },
     {
       "name": "Milky Way chocolate bar (Canadian)",
