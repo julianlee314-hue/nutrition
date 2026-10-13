@@ -1055,7 +1055,7 @@ window.NUTRITION_DATA={
    "date": "2026-10-13",
    "weekday": "Tue",
    "training": "Tue",
-   "note": "Morning yogurt bowl + probiotic; midday half wok stir-fry.",
+   "note": "Morning yogurt bowl + probiotic; midday half stir-fry, then comfort delivery (half carne asada fries, cherry pie).",
    "mood": [
     {
      "period": "morning",
@@ -1284,6 +1284,68 @@ window.NUTRITION_DATA={
       },
       "portion": 0.5
      }
+    },
+    {
+     "name": "Carne Asada Fries, San Diego style (half order)",
+     "period": "midday",
+     "kind": "food",
+     "meal_type": "comfort",
+     "qty": "1/2 order",
+     "pantry_id": null,
+     "kcal": 705,
+     "protein": 30,
+     "fat": 45,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 0,
+       "lactose": 1
+      },
+      "fiber": 4,
+      "starch": 40
+     },
+     "micros": {
+      "iron_mg": 3,
+      "potassium_mg": 900,
+      "calcium_mg": 200,
+      "sodium_mg": 1100,
+      "vit_e_mg": 2,
+      "selenium_ug": 20
+     },
+     "cost_thb": 158.0,
+     "cost_estimate": false,
+     "cost_note": "Half of \u0e3f316 delivery order; other half saved for Oct 14",
+     "estimate": true,
+     "evidence": "Comfort; grilled beef brings iron & B12, guac adds fiber/potassium."
+    },
+    {
+     "name": "Cherry pie (1 slice)",
+     "period": "midday",
+     "kind": "food",
+     "meal_type": "comfort",
+     "qty": "1 slice",
+     "pantry_id": null,
+     "kcal": 432,
+     "protein": 4,
+     "fat": 20,
+     "carbs": {
+      "sugars": {
+       "fruit": 6,
+       "added": 28,
+       "lactose": 0
+      },
+      "fiber": 2,
+      "starch": 23
+     },
+     "micros": {
+      "vit_a_ug": 40,
+      "iron_mg": 1.5
+     },
+     "cost_thb": 170.0,
+     "cost_estimate": false,
+     "cost_note": null,
+     "estimate": true,
+     "evidence": "Treat; added sugar."
     }
    ]
   }
