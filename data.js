@@ -4,7 +4,8 @@ window.NUTRITION_DATA={
   "days": [
    "2026-10-10",
    "2026-10-11",
-   "2026-10-12"
+   "2026-10-12",
+   "2026-10-13"
   ]
  },
  "days": {
@@ -925,7 +926,7 @@ window.NUTRITION_DATA={
    "date": "2026-10-12",
    "weekday": "Mon",
    "training": "Mon",
-   "note": "Midday: French toast leftovers from the Oct 11 dinner.",
+   "note": "Midday French toast leftovers + pho; evening 2 Cokes.",
    "mood": [
     {
      "period": "midday",
@@ -963,6 +964,157 @@ window.NUTRITION_DATA={
      "estimate": true,
      "evidence": "Treat; added sugar.",
      "note": "Leftover from Oct 11 Grab dinner; its own \u0e3f165 moved with it."
+    },
+    {
+     "name": "Instant rice noodle pho + a little red miso",
+     "period": "midday",
+     "kind": "food",
+     "qty": "1 bowl, home-cooked",
+     "pantry_id": null,
+     "kcal": 350,
+     "protein": 8,
+     "fat": 4,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 1,
+       "lactose": 0
+      },
+      "fiber": 1.5,
+      "starch": 68
+     },
+     "micros": {
+      "sodium_mg": 1300,
+      "potassium_mg": 150
+     },
+     "cost_thb": null,
+     "cost_estimate": true,
+     "cost_note": "unpriced",
+     "estimate": true,
+     "evidence": "Quick comfort bowl; miso is fermented (promising). High sodium."
+    },
+    {
+     "name": "Coca-Cola Original (250mL glass bottle)",
+     "period": "evening",
+     "kind": "drink",
+     "qty": "250mL",
+     "pantry_id": "coke-250-glass",
+     "kcal": 105,
+     "protein": 0,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 27,
+       "lactose": 0
+      },
+      "fiber": 0,
+      "starch": 0
+     },
+     "micros": {
+      "sodium_mg": 10
+     },
+     "caffeine_mg": 30,
+     "cost_thb": 12.24,
+     "estimate": true,
+     "evidence": "treat; added sugar",
+     "cost_estimate": false,
+     "cost_note": "Freshket receipt 2026-09-13: 2x24 for \u0e3f587.65"
+    },
+    {
+     "name": "Coca-Cola Original (250mL glass bottle)",
+     "period": "evening",
+     "kind": "drink",
+     "qty": "250mL",
+     "pantry_id": "coke-250-glass",
+     "kcal": 105,
+     "protein": 0,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 0,
+       "added": 27,
+       "lactose": 0
+      },
+      "fiber": 0,
+      "starch": 0
+     },
+     "micros": {
+      "sodium_mg": 10
+     },
+     "caffeine_mg": 30,
+     "cost_thb": 12.24,
+     "estimate": true,
+     "evidence": "treat; added sugar",
+     "cost_estimate": false,
+     "cost_note": "Freshket receipt 2026-09-13: 2x24 for \u0e3f587.65"
+    }
+   ]
+  },
+  "2026-10-13": {
+   "date": "2026-10-13",
+   "weekday": "Tue",
+   "training": "Tue",
+   "note": "Midday: half of a home wok stir-fry.",
+   "mood": [
+    {
+     "period": "midday",
+     "mood": null,
+     "energy": null,
+     "note": "not yet tapped"
+    }
+   ],
+   "items": [
+    {
+     "name": "Wok stir-fry (half): chicken, carrot, broccoli, green beans, riceberry rice, ginger, garlic, avocado oil, green onion, oyster & soy sauce",
+     "period": "midday",
+     "kind": "food",
+     "qty": "1/2 recipe (80g carrot, 50g broccoli, 50g green beans, 75g chicken, 37.5g dry riceberry, 7.5mL oil)",
+     "pantry_id": null,
+     "kcal": 395,
+     "protein": 30,
+     "fat": 11.5,
+     "carbs": {
+      "sugars": {
+       "fruit": 6.5,
+       "added": 1,
+       "lactose": 0
+      },
+      "fiber": 6.5,
+      "starch": 29
+     },
+     "micros": {
+      "vit_a_ug": 690,
+      "vit_c_mg": 55,
+      "potassium_mg": 850,
+      "iron_mg": 2.2,
+      "magnesium_mg": 75,
+      "selenium_ug": 22,
+      "vit_e_mg": 1.8,
+      "calcium_mg": 70,
+      "sodium_mg": 450
+     },
+     "cost_thb": 29.7,
+     "cost_estimate": true,
+     "cost_note": "Half of priced ingredients \u0e3f59.4; green onion, oyster sauce, soy sauce unpriced",
+     "estimate": true,
+     "evidence": "Whole-food plate; riceberry (anthocyanin-rich whole grain): promising. Veg carbs counted as natural sugar.",
+     "recipe": {
+      "full": {
+       "carrot_g": 160,
+       "broccoli_g": 100,
+       "green_beans_g": 100,
+       "chicken_breast_cooked_g": 150,
+       "ginger_g": 10,
+       "garlic_g": 5,
+       "avocado_oil_ml": 15,
+       "riceberry_dry_g": 75,
+       "green_onion": 2,
+       "oyster_sauce_tbsp": 1,
+       "soy_sauce_tsp": 1
+      },
+      "portion": 0.5
+     }
     }
    ]
   }

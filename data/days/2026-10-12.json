@@ -2,7 +2,7 @@
   "date": "2026-10-12",
   "weekday": "Mon",
   "training": "Mon",
-  "note": "Midday: French toast leftovers from the Oct 11 dinner.",
+  "note": "Midday French toast leftovers + pho; evening 2 Cokes.",
   "mood": [
     {
       "period": "midday",
@@ -40,6 +40,90 @@
       "estimate": true,
       "evidence": "Treat; added sugar.",
       "note": "Leftover from Oct 11 Grab dinner; its own ฿165 moved with it."
+    },
+    {
+      "name": "Instant rice noodle pho + a little red miso",
+      "period": "midday",
+      "kind": "food",
+      "qty": "1 bowl, home-cooked",
+      "pantry_id": null,
+      "kcal": 350,
+      "protein": 8,
+      "fat": 4,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 1,
+          "lactose": 0
+        },
+        "fiber": 1.5,
+        "starch": 68
+      },
+      "micros": {
+        "sodium_mg": 1300,
+        "potassium_mg": 150
+      },
+      "cost_thb": null,
+      "cost_estimate": true,
+      "cost_note": "unpriced",
+      "estimate": true,
+      "evidence": "Quick comfort bowl; miso is fermented (promising). High sodium."
+    },
+    {
+      "name": "Coca-Cola Original (250mL glass bottle)",
+      "period": "evening",
+      "kind": "drink",
+      "qty": "250mL",
+      "pantry_id": "coke-250-glass",
+      "kcal": 105,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 27,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 10
+      },
+      "caffeine_mg": 30,
+      "cost_thb": 12.24,
+      "estimate": true,
+      "evidence": "treat; added sugar",
+      "cost_estimate": false,
+      "cost_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65"
+    },
+    {
+      "name": "Coca-Cola Original (250mL glass bottle)",
+      "period": "evening",
+      "kind": "drink",
+      "qty": "250mL",
+      "pantry_id": "coke-250-glass",
+      "kcal": 105,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 27,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 10
+      },
+      "caffeine_mg": 30,
+      "cost_thb": 12.24,
+      "estimate": true,
+      "evidence": "treat; added sugar",
+      "cost_estimate": false,
+      "cost_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65"
     }
   ]
 }
