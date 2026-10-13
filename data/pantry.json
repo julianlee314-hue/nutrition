@@ -168,6 +168,18 @@
       "price_note": "Freshket receipt 2026-09-13: 2x24 for ฿587.65",
       "ingredients": null,
       "photo": null
+    },
+    {
+      "id": "probiotic-powder",
+      "name": "Probiotic powder",
+      "brand": "?",
+      "serving": "?",
+      "label_status": "pending",
+      "unit_price_thb": null,
+      "unit": null,
+      "price_estimate": true,
+      "ingredients": null,
+      "photo": null
     }
   ]
 }

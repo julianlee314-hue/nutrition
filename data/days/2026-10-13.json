@@ -2,8 +2,14 @@
   "date": "2026-10-13",
   "weekday": "Tue",
   "training": "Tue",
-  "note": "Midday: half of a home wok stir-fry.",
+  "note": "Morning yogurt bowl + probiotic; midday half wok stir-fry.",
   "mood": [
+    {
+      "period": "morning",
+      "mood": null,
+      "energy": null,
+      "note": "not yet tapped"
+    },
     {
       "period": "midday",
       "mood": null,
@@ -12,6 +18,169 @@
     }
   ],
   "items": [
+    {
+      "name": "Greek yogurt, full fat (store-made, no added sugar)",
+      "period": "morning",
+      "kind": "food",
+      "qty": "180g",
+      "pantry_id": "greek-yogurt",
+      "kcal": 174,
+      "protein": 17,
+      "fat": 9,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 7
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 200,
+        "potassium_mg": 250,
+        "selenium_ug": 17
+      },
+      "cost_thb": 48.6,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Fermented dairy, living cultures: promising."
+    },
+    {
+      "name": "Whey protein, unflavored",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "30g",
+      "pantry_id": "whey",
+      "kcal": 120,
+      "protein": 24,
+      "fat": 1.8,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 1.8
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 130
+      },
+      "cost_thb": 28.64,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Complete protein for recovery: well-studied."
+    },
+    {
+      "name": "Collagen peptides",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "10g",
+      "pantry_id": "collagen",
+      "kcal": 36,
+      "protein": 9,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {},
+      "cost_thb": 7.55,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Not a complete protein; skin/joint benefits: promising."
+    },
+    {
+      "name": "Llamito mixed berry powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "5g",
+      "pantry_id": "berry-powder",
+      "kcal": 17,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": {
+        "sugars": {
+          "fruit": 2,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1,
+        "starch": 0.5
+      },
+      "micros": {
+        "vit_c_mg": 5
+      },
+      "cost_thb": 19.8,
+      "cost_estimate": true,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Polyphenols: promising."
+    },
+    {
+      "name": "Sunflower seeds",
+      "period": "morning",
+      "kind": "food",
+      "qty": "20g",
+      "pantry_id": "sunflower-seeds",
+      "kcal": 117,
+      "protein": 4,
+      "fat": 10,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1.7,
+        "starch": 2
+      },
+      "micros": {
+        "vit_e_mg": 7,
+        "selenium_ug": 11,
+        "magnesium_mg": 65,
+        "iron_mg": 1
+      },
+      "cost_thb": 4.88,
+      "cost_estimate": true,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Vitamin E & selenium source: well-studied nutrients."
+    },
+    {
+      "name": "Probiotic powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "amount unknown (label pending)",
+      "pantry_id": "probiotic-powder",
+      "kcal": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {},
+      "cost_thb": null,
+      "cost_estimate": true,
+      "cost_note": "unpriced; label coming",
+      "estimate": true,
+      "evidence": "Probiotics: strain-dependent; promising."
+    },
     {
       "name": "Wok stir-fry (half): chicken, carrot, broccoli, green beans, riceberry rice, ginger, garlic, avocado oil, green onion, oyster & soy sauce",
       "period": "midday",
