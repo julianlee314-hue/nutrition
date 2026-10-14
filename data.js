@@ -1354,7 +1354,7 @@ window.NUTRITION_DATA={
    "date": "2026-10-15",
    "weekday": "Thu",
    "training": "Thu",
-   "note": "Morning yogurt bowl + probiotic.",
+   "note": "Morning yogurt bowl + probiotic + Malee green juice.",
    "mood": [
     {
      "period": "morning",
@@ -1526,6 +1526,47 @@ window.NUTRITION_DATA={
      "cost_note": "unpriced; label coming",
      "estimate": true,
      "evidence": "Probiotics: strain-dependent; promising."
+    },
+    {
+     "name": "Malee Power Plants green vegetable & fruit juice",
+     "period": "morning",
+     "kind": "drink",
+     "qty": "330mL box",
+     "pantry_id": "malee-power-plants",
+     "kcal": 120,
+     "protein": 0.5,
+     "fat": 0,
+     "carbs": {
+      "sugars": {
+       "fruit": 15,
+       "added": 0,
+       "lactose": 0
+      },
+      "fiber": 8,
+      "starch": 5
+     },
+     "micros": {
+      "sodium_mg": 115,
+      "potassium_mg": 320,
+      "vit_c_mg": 60,
+      "vit_b6_mg": 0.7,
+      "vit_d_ug": 1.25
+     },
+     "extras": {
+      "chlorophyll_mg": 1.23,
+      "polyphenols_mg": 67.22,
+      "probiotics": true,
+      "label_pct_thai_rdi": {
+       "vit_c": 100,
+       "vit_b6": 35,
+       "vit_d": 25
+      }
+     },
+     "cost_thb": null,
+     "cost_estimate": true,
+     "cost_note": "unpriced; no Malee entry in price files",
+     "estimate": false,
+     "evidence": "From label. Protein <1g logged as 0.5. Polyphenols & chlorophyll: promising; contains probiotics."
     }
    ]
   }
@@ -1710,6 +1751,35 @@ window.NUTRITION_DATA={
     "unit_price_thb": null,
     "unit": null,
     "price_estimate": true,
+    "ingredients": null,
+    "photo": null
+   },
+   {
+    "id": "malee-power-plants",
+    "name": "Power Plants green vegetable & fruit juice",
+    "brand": "Malee",
+    "serving": "330mL box",
+    "label_status": "received",
+    "unit_price_thb": null,
+    "unit": "330mL box",
+    "price_estimate": true,
+    "facts": {
+     "kcal": 120,
+     "fat_g": 0,
+     "protein_g": "<1",
+     "carbs_g": 28,
+     "sugars_g": 15,
+     "added_sugar_g": 0,
+     "fiber_g": 8,
+     "sodium_mg": 115,
+     "potassium_mg": 320,
+     "vit_c_pct_thai_rdi": 100,
+     "vit_b6_pct": 35,
+     "vit_d_pct": 25,
+     "chlorophyll_mg": 1.23,
+     "polyphenols_mg": 67.22,
+     "probiotics": true
+    },
     "ingredients": null,
     "photo": null
    }

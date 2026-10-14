@@ -180,6 +180,35 @@
       "price_estimate": true,
       "ingredients": null,
       "photo": null
+    },
+    {
+      "id": "malee-power-plants",
+      "name": "Power Plants green vegetable & fruit juice",
+      "brand": "Malee",
+      "serving": "330mL box",
+      "label_status": "received",
+      "unit_price_thb": null,
+      "unit": "330mL box",
+      "price_estimate": true,
+      "facts": {
+        "kcal": 120,
+        "fat_g": 0,
+        "protein_g": "<1",
+        "carbs_g": 28,
+        "sugars_g": 15,
+        "added_sugar_g": 0,
+        "fiber_g": 8,
+        "sodium_mg": 115,
+        "potassium_mg": 320,
+        "vit_c_pct_thai_rdi": 100,
+        "vit_b6_pct": 35,
+        "vit_d_pct": 25,
+        "chlorophyll_mg": 1.23,
+        "polyphenols_mg": 67.22,
+        "probiotics": true
+      },
+      "ingredients": null,
+      "photo": null
     }
   ]
 }
