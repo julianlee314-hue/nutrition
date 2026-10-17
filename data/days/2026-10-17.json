@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-17",
+  "weekday": "Sat",
+  "training": "Sat",
+  "note": "Swim day.",
+  "mood": [
+    {
+      "period": "morning",
+      "mood": null,
+      "energy": null,
+      "note": "not yet tapped"
+    },
+    {
+      "period": "midday",
+      "mood": null,
+      "energy": null,
+      "note": "not yet tapped"
+    },
+    {
+      "period": "evening",
+      "mood": null,
+      "energy": null,
+      "note": "not yet tapped"
+    }
+  ],
+  "items": [
+    {
+      "name": "Taobin coffee (unsweetened; copied from Oct 11 double Americano + evap)",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "double shot + 25g evap",
+      "pantry_id": "taobin-espresso",
+      "kcal": 40,
+      "protein": 2,
+      "fat": 2,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 3
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 60,
+        "potassium_mg": 150
+      },
+      "cost_thb": 45.0,
+      "cost_estimate": false,
+      "cost_note": "฿45 paid; milk assumed as Oct 11 entry",
+      "estimate": true,
+      "evidence": "Caffeine pre-exercise: well-studied.",
+      "tag": "worth-it"
+    },
+    {
+      "name": "Home-made coffee",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "1 cup (recipe not on record)",
+      "pantry_id": null,
+      "tag": "home",
+      "kcal": 2,
+      "protein": 0.3,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "potassium_mg": 115
+      },
+      "cost_thb": null,
+      "cost_estimate": true,
+      "cost_note": "unpriced; no earlier home-coffee entry",
+      "estimate": true,
+      "evidence": "No earlier home-coffee log to copy; estimated as plain black coffee (USDA brewed). Update with his usual recipe."
+    },
+    {
+      "name": "Llamito beetroot powder (pre-swim)",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "15g",
+      "pantry_id": "beetroot-powder",
+      "kcal": 55,
+      "protein": 1.5,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 8,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 2,
+        "starch": 1
+      },
+      "micros": {
+        "potassium_mg": 225
+      },
+      "folate_note": "folate",
+      "cost_thb": 31.5,
+      "cost_estimate": true,
+      "cost_note": "Copied from Oct 11 (15g); ~฿2.1/g, 250g tin price pending",
+      "estimate": true,
+      "evidence": "Dietary nitrate (~2-3h pre-swim) for endurance: well-studied. Also folate & potassium.",
+      "tag": "home"
+    },
+    {
+      "name": "Grape drink (Royal-D electrolyte, grape)",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "1 sachet + water",
+      "pantry_id": "royal-d-grape",
+      "kcal": 90,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 22,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 200,
+        "potassium_mg": 80
+      },
+      "cost_thb": 6.51,
+      "estimate": true,
+      "evidence": "Glucose + salts before the swim: well-studied for fuelling & hydration.",
+      "feeling": null,
+      "cost_estimate": false,
+      "tag": "home"
+    },
+    {
+      "name": "Grape drink (Royal-D electrolyte, grape)",
+      "period": "morning",
+      "kind": "drink",
+      "qty": "1 sachet + water",
+      "pantry_id": "royal-d-grape",
+      "kcal": 90,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 22,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "sodium_mg": 200,
+        "potassium_mg": 80
+      },
+      "cost_thb": 6.51,
+      "estimate": true,
+      "evidence": "Glucose + salts before the swim: well-studied for fuelling & hydration.",
+      "feeling": null,
+      "cost_estimate": false,
+      "tag": "home"
+    },
+    {
+      "name": "Greek yogurt, full fat (store-made, no added sugar)",
+      "period": "morning",
+      "kind": "food",
+      "qty": "180g",
+      "pantry_id": "greek-yogurt",
+      "kcal": 174,
+      "protein": 17,
+      "fat": 9,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 7
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 200,
+        "potassium_mg": 250,
+        "selenium_ug": 17
+      },
+      "cost_thb": 48.6,
+      "cost_estimate": false,
+      "cost_note": "copied from Oct 15 bowl",
+      "estimate": true,
+      "evidence": "Fermented dairy, living cultures: promising.",
+      "tag": "home"
+    },
+    {
+      "name": "Whey protein, unflavored",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "30g",
+      "pantry_id": "whey",
+      "kcal": 120,
+      "protein": 24,
+      "fat": 1.8,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 1.8
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {
+        "calcium_mg": 130
+      },
+      "cost_thb": 28.64,
+      "cost_estimate": false,
+      "cost_note": "copied from Oct 15 bowl",
+      "estimate": true,
+      "evidence": "Complete protein for recovery: well-studied.",
+      "tag": "home"
+    },
+    {
+      "name": "Collagen peptides",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "10g",
+      "pantry_id": "collagen",
+      "kcal": 36,
+      "protein": 9,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {},
+      "cost_thb": 7.55,
+      "cost_estimate": false,
+      "cost_note": "copied from Oct 15 bowl",
+      "estimate": true,
+      "evidence": "Not a complete protein; skin/joint benefits: promising.",
+      "tag": "home"
+    },
+    {
+      "name": "Llamito mixed berry powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "5g",
+      "pantry_id": "berry-powder",
+      "kcal": 17,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": {
+        "sugars": {
+          "fruit": 2,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1,
+        "starch": 0.5
+      },
+      "micros": {
+        "vit_c_mg": 5
+      },
+      "cost_thb": 19.8,
+      "cost_estimate": true,
+      "cost_note": "copied from Oct 15 bowl",
+      "estimate": true,
+      "evidence": "Polyphenols: promising.",
+      "tag": "home"
+    },
+    {
+      "name": "Sunflower seeds",
+      "period": "morning",
+      "kind": "food",
+      "qty": "20g",
+      "pantry_id": "sunflower-seeds",
+      "kcal": 117,
+      "protein": 4,
+      "fat": 10,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 1.7,
+        "starch": 2
+      },
+      "micros": {
+        "vit_e_mg": 7,
+        "selenium_ug": 11,
+        "magnesium_mg": 65,
+        "iron_mg": 1
+      },
+      "cost_thb": 4.88,
+      "cost_estimate": true,
+      "cost_note": "copied from Oct 15 bowl",
+      "estimate": true,
+      "evidence": "Vitamin E & selenium source: well-studied nutrients.",
+      "tag": "home"
+    },
+    {
+      "name": "Probiotic powder",
+      "period": "morning",
+      "kind": "supplement",
+      "qty": "amount unknown (label pending)",
+      "pantry_id": "probiotic-powder",
+      "kcal": 0,
+      "protein": 0,
+      "fat": 0,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0,
+        "starch": 0
+      },
+      "micros": {},
+      "cost_thb": null,
+      "cost_estimate": true,
+      "cost_note": "unpriced; label coming | copied from Oct 15 bowl",
+      "estimate": true,
+      "evidence": "Probiotics: strain-dependent; promising.",
+      "tag": "home"
+    },
+    {
+      "name": "Chicken congee (small)",
+      "period": "morning",
+      "kind": "food",
+      "qty": "1 small bowl (~250g, est.)",
+      "pantry_id": null,
+      "tag": "worth-it",
+      "kcal": 180,
+      "protein": 10,
+      "fat": 4,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0.5,
+        "starch": 25.5
+      },
+      "micros": {
+        "sodium_mg": 700,
+        "potassium_mg": 150,
+        "selenium_ug": 10
+      },
+      "cost_thb": 49.0,
+      "cost_estimate": false,
+      "cost_note": null,
+      "estimate": true,
+      "evidence": "Warm, gentle rice porridge; macros estimated from typical values."
+    },
+    {
+      "name": "Smoked salmon panini (delivery)",
+      "period": "midday",
+      "kind": "food",
+      "qty": "1 panini (est.: ~100g bread, 60g smoked salmon, 30g cream cheese)",
+      "pantry_id": null,
+      "tag": "comfort",
+      "kcal": 480,
+      "protein": 22,
+      "fat": 20,
+      "carbs": {
+        "sugars": {
+          "fruit": 0.5,
+          "added": 2,
+          "lactose": 1
+        },
+        "fiber": 2.5,
+        "starch": 46
+      },
+      "micros": {
+        "sodium_mg": 1300,
+        "omega3_g": 0.3,
+        "selenium_ug": 30,
+        "vit_a_ug": 60,
+        "potassium_mg": 250,
+        "iron_mg": 2.5,
+        "calcium_mg": 90
+      },
+      "cost_thb": 200.0,
+      "cost_estimate": true,
+      "cost_note": "about ฿200",
+      "estimate": true,
+      "evidence": "Estimate from USDA/typical values. Smoked salmon: omega-3 & vit D, but salty."
+    },
+    {
+      "name": "Leftover ground pork & rice",
+      "period": "evening",
+      "kind": "food",
+      "qty": "~120g cooked ground pork + ~150g cooked white rice (amounts estimated)",
+      "pantry_id": null,
+      "tag": "home",
+      "kcal": 551,
+      "protein": 34.8,
+      "fat": 25.4,
+      "carbs": {
+        "sugars": {
+          "fruit": 0,
+          "added": 0,
+          "lactose": 0
+        },
+        "fiber": 0.6,
+        "starch": 41.4
+      },
+      "micros": {
+        "selenium_ug": 51,
+        "iron_mg": 1.8,
+        "potassium_mg": 480,
+        "magnesium_mg": 40,
+        "sodium_mg": 90
+      },
+      "cost_thb": null,
+      "cost_estimate": true,
+      "cost_note": "unpriced; ground pork & white rice have no price in the food price files",
+      "estimate": true,
+      "evidence": "USDA cooked ground pork (~297 kcal/100g) + cooked white rice; seasoning not counted."
+    }
+  ]
+}
